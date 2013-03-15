@@ -1,0 +1,45 @@
+main: net.castegaming.plugins.fearforall.FearForAll
+name: FearForAll
+version: 0.1
+author : kwek20
+description: Call of Duty re-created just for minecraft!
+website: www.castegaming.net
+softdepend: [Multiverse-Core]
+
+commands:
+  join:
+    description: Lets you join a new match
+    usage: Type /join to join a match
+  leave:
+    description: Lets you leave a match
+    usage: Type /leave to leave a match
+  showgames:
+    description: Shows the games info
+    usage: Type /showgames to see info
+  allies:
+    description: Joins the allies!
+    usage: Type /allies  to join the allies team
+  axis:
+    description: Joins team axis!
+    usage: Type /axis to join the axis team
+  setadmin:
+    description: Sets a player to the defined admin status
+    usage: Type /setadmin [player] [true/false]
+  chat:
+    description: Sets your chat preferences
+    usage: Type /chat [channel]
+  stopgame:
+    description: Stops the game you set
+    usage: Type /stopgame [matchID]
+  newmap:
+    description: Creates a new game with the map which you define (In caps)
+    usage: Type /newmap [mapname] to create a new map (In caps)
+  nm:
+    description: Creates a new game with the map which you define (Alias for /newmap)
+    usage: Type /newmap [mapname] to create a new map (Alias for /newmap)
+  buildingmode:
+    description: Toggles between a player's building mode
+    usage: Type /buildingmode [name] (optional) to toggle the building mode.
+  buildmode:
+    description: Toggles between a player's building mode
+    usage: Type /buildingmode [name] (optional) to toggle the building mode.
